@@ -1,0 +1,41 @@
+@import '../../assets/variables/variables';
+
+.form_container{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 500px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.15);
+    background: #FFFFFF;
+    position: relative;
+    top: -40px;
+}
+
+.search_form{
+    display: flex;
+
+    .field_group{
+        width: 33.33%;
+    }
+
+    input{
+        padding: 20px 20px;
+        border: none;
+        width: 100%;
+    }
+
+    .submit_btn{
+        background: $green;
+        border: none;
+        color: #FFFFFF;
+        cursor: pointer;
+        padding: 20px 35px;
+        transition: 0.3s all ease;
+
+        &:hover{
+            background: #06a85a;
+            transition: 0.3s all ease;
+        }
+    }
+
+}
+

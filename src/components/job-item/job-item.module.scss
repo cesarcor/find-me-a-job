@@ -1,0 +1,60 @@
+@import '../../assets/variables/variables';
+
+.job_item{
+    background: #FFFFFF;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid $blue;
+
+    a{
+        text-decoration: none;
+    }
+
+    .company_info_container{
+        display: flex;
+    }
+
+    &__company_logo{
+        width: auto;
+        max-height: 25px;
+        display: inline-block;
+    }
+
+    &__company{
+        color: $orange;
+        display: block;
+    }
+
+    &__title{
+        color: $darkgray;
+        font-family: "Oswald Sans, sans-serif";
+        font-weight: 500;
+        font-size: 1.5rem;
+
+        &:hover{
+            color: $green;
+        }
+    }
+
+    &__snippet{
+        font-family: "Open Sans, sans-serif";
+        font-weight: 400;
+    }
+
+    &__date{
+        display: block;
+        font-size: 0.8rem;
+    }
+
+    &__snippet,
+    &__date{
+        color: $gray;
+    }
+
+    .company_info_container,
+    &__title,
+    &__snippet,
+    &__date{
+        margin-bottom: 10px;
+    }
+}

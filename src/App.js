@@ -1,25 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import './App.scss';
+import Hero from './components/hero/hero';
+import SearchForm from './components/search-form/search-form';
+import Heading from './components/heading/heading';
+import JobList from './components/job-list/job-list';
+import Footer from './components/footer/footer';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+export default function App(){
+
+    return (
+      <div className="App">
+        <Hero/>
+        <SearchForm/>
+        <Heading text="Job Posts" />
+        <JobList/>
+        <Footer />
+      </div>
+    );
+
 }
-
-export default App;

@@ -1,0 +1,16 @@
+@import '../../assets/variables/variables';
+
+.btn{
+    border: 1px solid $green;
+    color: $green;
+    display: block;
+    padding: 5px 15px;
+    border-radius: 2px;
+    transition: all ease 0.3s;
+
+    &:hover{
+        background: $green;
+        color: #FFFFFF;
+        transition: all ease 0.3s;
+    }
+}

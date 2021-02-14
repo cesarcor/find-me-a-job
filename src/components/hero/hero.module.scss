@@ -1,0 +1,22 @@
+@import '../../assets/variables/variables';
+
+.hero_container{
+    display: grid;
+    align-content: center;
+    background-color: $blue;
+    color: $orange;
+    text-align: center;
+    height: 40vh;
+    min-height: 300px;
+    border-radius: 0 0 50px 50px;
+
+    .hero_icons{
+        font-size: 30px;
+    }
+
+    .hero_heading{
+        font-family: "Oswald Sans, sans-serif";
+        font-weight: 700;
+        font-size: 2.5rem;
+    }
+}
