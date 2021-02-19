@@ -13,7 +13,9 @@ function JobItem(props) {
           <h3 className={styles.job_item__title}>{props.jobTitle}</h3>
         </a>
         <p className={styles.job_item__snippet}>{props.jobSnippet}</p>
-        <span className={styles.job_item__date}>Posted on: <span>02/02/2021</span></span>
+        <span className={styles.job_item__date}>
+          Posted on: <span>02/02/2021</span>
+        </span>
         <Button jobURL={props.jobURL} />
       </div>
     </article>
