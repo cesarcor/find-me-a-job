@@ -1,23 +1,23 @@
-.main_container{
-    max-width: 1024px;
-    margin: 0 auto;
-    margin-bottom: 100px;
+.main_container {
+  max-width: 1024px;
+  margin: 0 auto;
+  margin-bottom: 100px;
 }
 
-.job_list{
-    display: grid;
-    grid-template-columns: 100%;
+.job_list {
+  display: grid;
+  grid-template-columns: 100%;
 
-    &_header,
-    &_footer{
-        margin: 10px;
-    }
+  &_header,
+  &_footer {
+    margin: 10px;
+  }
 
-    @media (min-width: 480px){
-        grid-template-columns: repeat(2, 50%);
-    }
+  @media (min-width: 480px) {
+    grid-template-columns: repeat(2, 50%);
+  }
 
-    @media (min-width: 769px){
-        grid-template-columns: repeat(3, 33.3%);
-    }
+  @media (min-width: 769px) {
+    grid-template-columns: repeat(3, 33.3%);
+  }
 }
