@@ -53,18 +53,18 @@ export default function JobList() {
         />
 
         <JobItem
-        company="Acme inc"
-        jobTitle="Lead Jester"
-        jobSnippet="Lorem ipsum doloret et min delarus conmiagun di joajnf roarmire con de la tusa"
-        jobURL="https://example.com"
-      />
+          company="Acme inc"
+          jobTitle="WordPress developer"
+          jobSnippet="Lorem ipsum doloret et min delarus conmiagun di joajnf roarmire con de la tusa"
+          jobURL="https://example.com"
+        />
 
-      <JobItem
-        company="Acme inc"
-        jobTitle="Lead Jester"
-        jobSnippet="Lorem ipsum doloret et min delarus conmiagun di joajnf roarmire con de la tusa"
-        jobURL="https://example.com"
-      />
+        <JobItem
+          company="Acme inc"
+          jobTitle="Product Manager"
+          jobSnippet="Lorem ipsum doloret et min delarus conmiagun di joajnf roarmire con de la tusa"
+          jobURL="https://example.com"
+        />
       </div>
 
       <div className={styles.job_list_footer}></div>
